@@ -1,3 +1,12 @@
+/*
+* File: InputPanel.java
+* Author: Andó Attila
+* Copyright: 2023, Andó Attila
+* Group: Szoft I/1/N
+* Date: 2023-05-23
+* Github: https://github.com/halando/
+* Licenc: GNU GPL
+*/
 import java.awt.GridLayout;
 
 import javax.swing.JLabel;
@@ -26,7 +35,6 @@ public class InputPanel  extends JPanel{
     private void setPanel(){
         this.add(this.label);
         this.add(this.field);
-       // this.setLayout(new BoxLayout(this, BoxLayout.LINE_AXIS));
         this.setLayout(new GridLayout(1,2));
         this.setBorder(new EmptyBorder(5,10,5,10));
     }

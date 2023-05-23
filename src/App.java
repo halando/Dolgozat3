@@ -1,5 +1,5 @@
 /*
-* File: ButtonPanel.java
+* File: App.java
 * Author: Andó Attila
 * Copyright: 2023, Andó Attila
 * Group: Szoft I/1/N
@@ -7,9 +7,9 @@
 * Github: https://github.com/halando/
 * Licenc: GNU GPL
 */
- 
+
 public class App {
     public static void main(String[] args) throws Exception {
-        
+        new MainController();
     }
 }
